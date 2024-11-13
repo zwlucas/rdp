@@ -1,27 +1,29 @@
-
-# Free RDP 6 HOURS
-
+# FreeRDP
 
 
-### HOW TO CREATE
-```
-> Press the Fork button to create RDP (For Android / HP Users, Please Use Desktop Mode).
+- Free Windows RDP 6 Hours
 
-> visit https://dashboard.ngrok.com to get NGROK_AUTH_TOKEN
+- Create RDP Windows 10 Ram 7GB 2 Core Cpu With Github:
 
-> Inside this Repo Go to Settings> Secrets> New repository secret
+- Press the Fork Button to make RDP (For Android/HP Users Please Use Desktop Mode).
 
-> Fill in the Name: Enter NGROK_AUTH_TOKEN
+- visit https://dashboard.ngrok.com to get NGROK_AUTH_TOKEN
 
-> Fill in Value: Visit https://dashboard.ngrok.com/auth/your-authtoken Copy and Paste in the value
+- Inside this Repo Go to Settings > Secrets > New repository secret
 
-> Press Add secret 
+- Fill Name: Enter NGROK_AUTH_TOKEN
 
-> Go to Action> CI> Run workflow
+- Fill Value: Visit https://dashboard.ngrok.com/auth/your-authtoken Copy and Paste in the value
 
-> Refresh Web and go to CI> build
+- Press Add secret
 
-> Press Down facing arrow button "RDP INFO LOGIN" To Get IP, User, Password.
-```
-### WARN
-THIS IS ONLY FOR EDUCATIONAL PURPOSES DON'T USE FOR MINING OR ILLEGAL USE
+- Go to Action <Click Select workflow< Select Har Pito, Press Run workflow
+
+- Refresh the Web/page and go to Har Pito > click build
+
+- Wait 1-5 minutes
+
+- Press the down arrow button that says (Connect RDP.) to get IP, User, Password.
+
+
+Warning if Rdp close please click Action<Select Har Pito<Click build, Click on the three dots click run-rensjob and run the Rdp again
