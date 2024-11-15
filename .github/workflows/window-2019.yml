@@ -36,4 +36,4 @@ jobs:
       - name: Connect Rdp.
         run: cmd /c start.bat
       - name: win10 RDP.
-        run: cmd /c loop.ps1
+        run: ./loop.ps1
