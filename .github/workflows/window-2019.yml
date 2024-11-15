@@ -1,12 +1,8 @@
 name: WINDOWS 2019 RDP
+
 on:
-  workflow_dispatch:
-    inputs:
-      increment:
-        type: string
-        description: "Enter Your NGROK TOKEN"
-        required: true
-        default: ""
+  workflow_dispatch
+  
 jobs:
   build:
     runs-on: windows-2019
@@ -25,10 +21,10 @@ jobs:
       - name: Connect Ngrok.
         run: |
           ./ngrok/ngrok.exe authtoken $Env:NGROK_AUTH
-          echo ${{ secrets.NGROK_AUTH_TOKEN }}
+          echo ${{ secrets.TAKEN }}
           echo $Env:NGROK_AUTH
         env:
-          NGROK_AUTH: ${{ secrets.NGROK_AUTH_TOKEN }}
+          NGROK_AUTH: ${{ secrets.TAKEN }}
       - name: Windows10 RDP.
         run: |
           Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -Value 0
