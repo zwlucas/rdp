@@ -14,7 +14,6 @@ ICACLS C:\Windows\Temp /grant administrator :F >nul
 ICACLS C:\Windows\installer /grant administrator :F >nul
 echo Successfully installed! If RDP is dead, rebuild again.
 echo IP:
-ngrok/ngrok.exe tcp 3389
 echo Username: administrator 
 echo Password: OLDUSER#6
 echo You can login now
