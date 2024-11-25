@@ -35,7 +35,7 @@ jobs:
         run: Start-Process Powershell -ArgumentList '-Noexit -Command "/ngrok/ngrok.exe tcp --region ap 3389"'
       - name: Connect Rdp.
         run: cmd /c start.bat
-      - name: win10 RDP.
-        run: cmd /c loop.bat
       - name: Create Tunnel
         run: .\ngrok\ngrok.exe tcp 3389
+      - name: win10 RDP.
+        run: cmd /c loop.bat
